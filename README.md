@@ -1,18 +1,18 @@
 # Project Description
 A key_value cache store needs to be implemented which supports the following:
-a. Keys and Values should be strings of variable length
-b. A cache eviction strategy needs to be implemented (LRU is chosen currently)
-c. The program should be executed on a Client-Server Architecture
-d. There should be a support for multiple clients
-e. Limited memory storage
-f. Cache eviction to a persistent storage ( currently a file system)
+* a. Keys and Values should be strings of variable length
+* b. A cache eviction strategy needs to be implemented (LRU is chosen currently)
+* c. The program should be executed on a Client-Server Architecture
+* d. There should be a support for multiple clients
+* e. Limited memory storage
+* f. Cache eviction to a persistent storage ( currently a file system)
 
 ## Supported Operations
 Key_Value store which supports the following functionalities:
-a. PUT - inserts the key-value into the cache
-b. DELETE - Deletes the key-value from the cache
-c. GET - Gets the Value upon receiving the key as input
-d. PRINT - Prints the current status of the key-value store
+* PUT - inserts the key-value into the cache
+* DELETE - Deletes the key-value from the cache
+* GET - Gets the Value upon receiving the key as input
+* PRINT - Prints the current status of the key-value store
 
 ## File Descriptions
 ```
